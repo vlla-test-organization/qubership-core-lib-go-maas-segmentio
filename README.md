@@ -1,3 +1,9 @@
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?metric=coverage&project=Netcracker_qubership-core-lib-go-maas-segmentio)](https://sonarcloud.io/summary/overall?id=Netcracker_qubership-core-lib-go-maas-segmentio)
+[![duplicated_lines_density](https://sonarcloud.io/api/project_badges/measure?metric=duplicated_lines_density&project=Netcracker_qubership-core-lib-go-maas-segmentio)](https://sonarcloud.io/summary/overall?id=Netcracker_qubership-core-lib-go-maas-segmentio)
+[![vulnerabilities](https://sonarcloud.io/api/project_badges/measure?metric=vulnerabilities&project=Netcracker_qubership-core-lib-go-maas-segmentio)](https://sonarcloud.io/summary/overall?id=Netcracker_qubership-core-lib-go-maas-segmentio)
+[![bugs](https://sonarcloud.io/api/project_badges/measure?metric=bugs&project=Netcracker_qubership-core-lib-go-maas-segmentio)](https://sonarcloud.io/summary/overall?id=Netcracker_qubership-core-lib-go-maas-segmentio)
+[![code_smells](https://sonarcloud.io/api/project_badges/measure?metric=code_smells&project=Netcracker_qubership-core-lib-go-maas-segmentio)](https://sonarcloud.io/summary/overall?id=Netcracker_qubership-core-lib-go-maas-segmentio)
+
 # segmentio
 
 This lib provides methods to provision segmentio kafka-go structs by topic information received from MaaS.
