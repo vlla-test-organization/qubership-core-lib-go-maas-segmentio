@@ -180,10 +180,21 @@ func getAvailableData(props *maasModel.TopicConnectionProperties) ([]string, *tl
 		if ok := caCertPool.AppendCertsFromPEM([]byte(caCert)); !ok {
 			return nil, nil, nil, errors.New("failed to append ca cert")
 		}
-		return servers, &tls.Config{
+
+		tlsConfig := &tls.Config{
 			RootCAs:            caCertPool,
 			InsecureSkipVerify: true,
-		}, nil, nil
+		}
+
+		if props.ClientCert != "" && props.ClientKey != "" {
+			clientCertificate, err := tls.X509KeyPair([]byte(props.ClientCert), []byte(props.ClientKey))
+			if err != nil {
+				return nil, nil, nil, fmt.Errorf("failed to create X509KeyPair, cause: %w", err)
+			}
+			tlsConfig.Certificates = []tls.Certificate{clientCertificate}
+		}
+
+		return servers, tlsConfig, nil, nil
 	default:
 		return nil, nil, nil, fmt.Errorf("unsupported protocol: %s", protocol)
 	}
