@@ -6,12 +6,12 @@ import (
 	"errors"
 	"fmt"
 
-	maasKafka "github.com/netcracker/qubership-core-lib-go-maas-client/v3/kafka"
-	maasModel "github.com/netcracker/qubership-core-lib-go-maas-client/v3/kafka/model"
 	"github.com/segmentio/kafka-go"
 	"github.com/segmentio/kafka-go/sasl"
 	"github.com/segmentio/kafka-go/sasl/plain"
 	"github.com/segmentio/kafka-go/sasl/scram"
+	maasKafka "github.com/vlla-test-organization/qubership-core-lib-go-maas-client/v3/kafka"
+	maasModel "github.com/vlla-test-organization/qubership-core-lib-go-maas-client/v3/kafka/model"
 )
 
 func NewWriter(topic maasModel.TopicAddress, options ...WriterOptions) (*kafka.Writer, error) {

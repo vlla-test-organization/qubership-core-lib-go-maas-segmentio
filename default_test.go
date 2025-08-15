@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	maasModel "github.com/netcracker/qubership-core-lib-go-maas-client/v3/kafka/model"
 	"github.com/segmentio/kafka-go"
 	"github.com/segmentio/kafka-go/sasl/plain"
 	"github.com/stretchr/testify/require"
+	maasModel "github.com/vlla-test-organization/qubership-core-lib-go-maas-client/v3/kafka/model"
 )
 
 func Test_getAvailableData_PLAINTEXT_nocreds(t *testing.T) {
