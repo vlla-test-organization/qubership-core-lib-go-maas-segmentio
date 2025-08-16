@@ -4,14 +4,12 @@ go 1.23.0
 
 toolchain go1.24.5
 
-retract (
-    v3.0.1
-)
+retract v3.0.1
 
 require (
-	github.com/vlla-test-organization/qubership-core-lib-go-maas-client/v3 v3.0.3
 	github.com/segmentio/kafka-go v0.4.47
 	github.com/stretchr/testify v1.10.0
+	github.com/vlla-test-organization/qubership-core-lib-go-maas-client/v3 v3.0.4
 )
 
 require (
@@ -29,11 +27,11 @@ require (
 	github.com/knadh/koanf/v2 v2.2.0 // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
-	github.com/vlla-test-organization/qubership-core-lib-go-stomp-websocket/v3 v3.0.3 // indirect
-	github.com/vlla-test-organization/qubership-core-lib-go/v3 v3.0.3 // indirect
 	github.com/pierrec/lz4/v4 v4.1.15 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/viney-shih/go-lock v1.1.2 // indirect
+	github.com/vlla-test-organization/qubership-core-lib-go-stomp-websocket/v3 v3.0.4 // indirect
+	github.com/vlla-test-organization/qubership-core-lib-go/v3 v3.0.4 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.1.2 // indirect
 	github.com/xdg-go/stringprep v1.0.4 // indirect
