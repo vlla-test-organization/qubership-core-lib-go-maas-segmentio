@@ -9,7 +9,7 @@ retract v3.0.1
 require (
 	github.com/segmentio/kafka-go v0.4.47
 	github.com/stretchr/testify v1.10.0
-	github.com/vlla-test-organization/qubership-core-lib-go-maas-client/v3 v3.0.4
+	github.com/vlla-test-organization/qubership-core-lib-go-maas-client/v3 v3.0.5
 )
 
 require (
@@ -30,8 +30,8 @@ require (
 	github.com/pierrec/lz4/v4 v4.1.15 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/viney-shih/go-lock v1.1.2 // indirect
-	github.com/vlla-test-organization/qubership-core-lib-go-stomp-websocket/v3 v3.0.4 // indirect
-	github.com/vlla-test-organization/qubership-core-lib-go/v3 v3.0.4 // indirect
+	github.com/vlla-test-organization/qubership-core-lib-go-stomp-websocket/v3 v3.0.5 // indirect
+	github.com/vlla-test-organization/qubership-core-lib-go/v3 v3.0.5 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.1.2 // indirect
 	github.com/xdg-go/stringprep v1.0.4 // indirect
