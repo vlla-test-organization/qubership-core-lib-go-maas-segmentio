@@ -4,7 +4,6 @@ go 1.23.0
 
 toolchain go1.24.5
 
-retract v3.0.1
 
 require (
 	github.com/segmentio/kafka-go v0.4.47
